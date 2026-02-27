@@ -1,6 +1,6 @@
 # Lando Plugin for JetBrains IDEs
 
-![Build](https://github.com/4lando/intellij-plugin/workflows/Build/badge.svg)
+![Build](https://github.com/lando-community/intellij-plugin/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 

@@ -1,13 +1,13 @@
-package dev._4lando.intellij.ui.widget
+package dev.lando.community.intellij.ui.widget
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.Messages
 import com.intellij.openapi.wm.StatusBar
 import com.intellij.openapi.wm.StatusBarWidget
 import com.intellij.util.Consumer
-import dev._4lando.intellij.LandoBundle
-import dev._4lando.intellij.services.LandoProjectService
-import dev._4lando.intellij.services.LandoStatusService
+import dev.lando.community.intellij.LandoBundle
+import dev.lando.community.intellij.services.LandoProjectService
+import dev.lando.community.intellij.services.LandoStatusService
 import icons.LandoIcons
 import java.awt.event.MouseEvent
 import javax.swing.Icon

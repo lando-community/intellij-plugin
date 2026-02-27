@@ -1,4 +1,4 @@
-package dev._4lando.intellij.ui.console
+package dev.lando.community.intellij.ui.console
 
 import com.intellij.terminal.pty.PtyProcessTtyConnector
 import com.jediterm.core.util.TermSize

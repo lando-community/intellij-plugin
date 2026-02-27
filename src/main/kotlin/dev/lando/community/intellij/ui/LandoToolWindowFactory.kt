@@ -1,13 +1,13 @@
-package dev._4lando.intellij.ui
+package dev.lando.community.intellij.ui
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.openapi.wm.impl.content.ToolWindowContentUi
 import com.intellij.ui.content.ContentFactory
-import dev._4lando.intellij.LandoBundle
-import dev._4lando.intellij.services.LandoStatusService
-import dev._4lando.intellij.ui.console.JeditermConsoleView
+import dev.lando.community.intellij.LandoBundle
+import dev.lando.community.intellij.services.LandoStatusService
+import dev.lando.community.intellij.ui.console.JeditermConsoleView
 
 
 class LandoToolWindowFactory : ToolWindowFactory {

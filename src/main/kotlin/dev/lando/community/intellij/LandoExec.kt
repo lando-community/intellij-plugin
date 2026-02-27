@@ -1,10 +1,10 @@
-package dev._4lando.intellij
+package dev.lando.community.intellij
 
 import com.intellij.execution.process.ProcessHandler
 import com.intellij.execution.process.KillableColoredProcessHandler
 import com.intellij.openapi.project.Project
-import dev._4lando.intellij.services.LandoProjectService
-import dev._4lando.intellij.ui.console.JeditermConsoleView
+import dev.lando.community.intellij.services.LandoProjectService
+import dev.lando.community.intellij.ui.console.JeditermConsoleView
 import com.pty4j.PtyProcessBuilder
 import java.util.*
 

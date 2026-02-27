@@ -1,4 +1,4 @@
-package dev._4lando.intellij.listeners
+package dev.lando.community.intellij.listeners
 
 interface LandoStatusListener {
     fun statusChanged()

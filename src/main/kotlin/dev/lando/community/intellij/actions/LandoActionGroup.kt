@@ -1,4 +1,4 @@
-package dev._4lando.intellij.actions
+package dev.lando.community.intellij.actions
 
 import com.intellij.openapi.actionSystem.ActionGroup
 import com.intellij.openapi.actionSystem.AnAction
