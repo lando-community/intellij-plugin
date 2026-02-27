@@ -1,4 +1,4 @@
-package dev._4lando.intellij.services
+package dev.lando.community.intellij.services
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -12,9 +12,9 @@ import com.intellij.openapi.project.guessProjectDir
 import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.util.ConcurrencyUtil
 import com.intellij.util.messages.Topic
-import dev._4lando.intellij.LandoExec
-import dev._4lando.intellij.ServiceData
-import dev._4lando.intellij.listeners.LandoProjectManagerListener
+import dev.lando.community.intellij.LandoExec
+import dev.lando.community.intellij.ServiceData
+import dev.lando.community.intellij.listeners.LandoProjectManagerListener
 import java.util.*
 import java.util.concurrent.ScheduledExecutorService
 import java.util.concurrent.TimeUnit

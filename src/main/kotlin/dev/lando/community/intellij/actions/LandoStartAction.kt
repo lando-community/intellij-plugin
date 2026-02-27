@@ -1,4 +1,4 @@
-package dev._4lando.intellij.actions
+package dev.lando.community.intellij.actions
 
 import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction
@@ -6,7 +6,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.diagnostic.Logger
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages
-import dev._4lando.intellij.LandoExec
+import dev.lando.community.intellij.LandoExec
 import java.io.BufferedReader
 import java.io.File
 import java.io.InputStreamReader

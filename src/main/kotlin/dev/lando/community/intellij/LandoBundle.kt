@@ -1,4 +1,4 @@
-package dev._4lando.intellij
+package dev.lando.community.intellij
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

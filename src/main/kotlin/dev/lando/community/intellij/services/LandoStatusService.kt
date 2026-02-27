@@ -1,4 +1,4 @@
-package dev._4lando.intellij.services
+package dev.lando.community.intellij.services
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -9,9 +9,9 @@ import com.intellij.openapi.diagnostic.Logger
 import com.intellij.openapi.project.ProjectManager
 import com.intellij.util.messages.Topic
 import com.pty4j.PtyProcessBuilder
-import dev._4lando.intellij.LandoExec
-import dev._4lando.intellij.listeners.LandoStatusListener
-import dev._4lando.intellij.ui.console.JeditermConsoleView
+import dev.lando.community.intellij.LandoExec
+import dev.lando.community.intellij.listeners.LandoStatusListener
+import dev.lando.community.intellij.ui.console.JeditermConsoleView
 import java.util.*
 import kotlinx.coroutines.sync.Mutex
 

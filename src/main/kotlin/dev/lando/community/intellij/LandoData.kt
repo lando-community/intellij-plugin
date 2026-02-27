@@ -1,4 +1,4 @@
-package dev._4lando.intellij
+package dev.lando.community.intellij
 
 /**
  * Data class representing the service data for a Lando application.

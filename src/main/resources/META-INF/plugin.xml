@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
-<idea-plugin url="https://github.com/4lando/intellij-plugin">
-    <id>dev._4lando.intellij</id>
+<idea-plugin url="https://github.com/lando-community/intellij-plugin">
+    <id>dev.lando.community.intellij</id>
     <name>Lando</name>
     <vendor>Aaron Feledy</vendor>
 
@@ -12,34 +12,34 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <fileType name="landofile" extensions="yml" language="yaml" fieldName="LANDOFILE"
-                  implementationClass="dev._4lando.intellij.config.LandofileFileType"/>
+                  implementationClass="dev.lando.community.intellij.config.LandofileFileType"/>
         <toolWindow id="Lando" anchor="bottom" icon="LandoIcons.Lando13"
                     doNotActivateOnStart="false"
                     largeStripeAnchor="bottom"
-                    factoryClass="dev._4lando.intellij.ui.LandoToolWindowFactory"
+                    factoryClass="dev.lando.community.intellij.ui.LandoToolWindowFactory"
                     canCloseContents="true" secondary="false"/>
         <statusBarWidgetFactory id="LandoStatusWidget"
-                                implementation="dev._4lando.intellij.ui.widget.LandoStatusWidgetFactory"/>
+                                implementation="dev.lando.community.intellij.ui.widget.LandoStatusWidgetFactory"/>
     </extensions>
 
     <!-- [JavaScript] ships with licensed versions of IDEA -->
     <extensions defaultExtensionNs="JavaScript.JsonSchema">
-        <ProviderFactory implementation="dev._4lando.intellij.config.LandofileJsonSchemaProviderFactory"/>
+        <ProviderFactory implementation="dev.lando.community.intellij.config.LandofileJsonSchemaProviderFactory"/>
     </extensions>
 
     <actions>
-        <group id="LandoActionGroup" class="dev._4lando.intellij.actions.LandoActionGroup"
+        <group id="LandoActionGroup" class="dev.lando.community.intellij.actions.LandoActionGroup"
                text="Lando" icon="LandoIcons.Lando" popup="true" description="Execute Lando commands">
             <add-to-group group-id="ToolsMenu"/>
         </group>
-        <action id="LandoStartAction" class="dev._4lando.intellij.actions.LandoStartAction"
+        <action id="LandoStartAction" class="dev.lando.community.intellij.actions.LandoStartAction"
                 text="Start" icon="com.intellij.icons.ExpUiIcons.Toolwindow.Run">
             <add-to-group group-id="LandoActionGroup" anchor="last"/>
         </action>
     </actions>
 
     <applicationListeners>
-        <listener class="dev._4lando.intellij.listeners.LandoProjectManagerListener"
+        <listener class="dev.lando.community.intellij.listeners.LandoProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

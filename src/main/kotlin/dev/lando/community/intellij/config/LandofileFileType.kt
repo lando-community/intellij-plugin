@@ -1,9 +1,9 @@
-package dev._4lando.intellij.config
+package dev.lando.community.intellij.config
 
 import com.intellij.openapi.fileTypes.LanguageFileType
 import com.intellij.openapi.fileTypes.ex.FileTypeIdentifiableByVirtualFile
 import com.intellij.openapi.vfs.VirtualFile
-import dev._4lando.intellij.LandoBundle
+import dev.lando.community.intellij.LandoBundle
 import icons.LandoIcons
 import javax.swing.Icon
 import org.jetbrains.yaml.YAMLLanguage
